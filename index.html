@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ICON -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+        <!-- NAVBAR -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+            <div class="container">
+              <a class="navbar-brand" href="#">Inready Workgroup</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="ms-auto navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item mx-lg-3">
+                    <a class="nav-link" href="#">Kirim Pesan</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Konsentrasi</a>
+                  </li>             
+                  <li class="nav-item">
+                    <a class="nav-link" href="#faq">FAQ</a>
+                  </li>             
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <!-- HEADER -->
+        <section class="bg-dark text-light text-center text-md-start">
+            <div class="container d-md-flex align-items-center justify-content-between pt-4">
+                <div>
+                    <h1>Inready <span class="text-warning">Workgroup</span></h1>
+                    <p class="lead">Merupakan sarana bagi mahasiswa yang tertarik di bidang IT. Saat ini telah terdapat 12 Angkatan sejak pertama kali didirikan.</p>
+                    <button class="btn btn-primary">Daftar Sekarang</button>
+                </div>
+                <img src="img/vector.png" class="w-50" alt="">
+            </div>
+        </section>
+
+        <!-- Message -->
+        <section class="bg-primary text-light p-5">
+            <div class="container">
+                <div class="d-md-flex align-items-center justify-content-between">
+                    <h3>Kirim Pesan Ke Inready</h3>
+                    <div class="input-group form-input">
+                        <input type="text" class="form-control" placeholder="Masukkan Pesan" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-lg btn-dark" type="button" id="button-addon2">Button</button>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature -->
+
+        <section class="p-5 text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card bg-dark text-light">
+                            <h1 class="mt-3">
+                                <i class="bi bi-laptop"></i>
+                            </h1>
+                            <div class="card-body">
+                              <h5 class="card-title">Web Development</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Pelajari Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-secondary text-light">
+                            <h1 class="mt-3">
+                                <i class="bi bi-phone"></i>
+                            </h1>
+                            <div class="card-body">
+                              <h5 class="card-title">Web Development</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Pelajari Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-dark text-light">
+                            <h1 class="mt-3">
+                                <i class="bi bi-pencil"></i>
+                            </h1>
+                            <div class="card-body">
+                              <h5 class="card-title">UI/UX</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Pelajari Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </section>
+
+
+        <!-- Event -->
+    <section class=" mb-5 p-5">
+      <div class="container text-center">
+        <h2 class="my-3"><em>Our Events</em></h2>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://source.unsplash.com/random/720x250" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Buka Bersama Anak Yatim</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://source.unsplash.com/random/720x250" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Family Gathering</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://source.unsplash.com/random/720x250" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Sekolah Pelosok</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="p-5">
+      <div class="container">
+        <h3 class="text-center mt-4 mb-5"><em>Frequently Asked Question</em></h3>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Bagaimana Cara Menjadi Anggota Inready ?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Lihat informasi perekrutan pada <strong>Instagram @inreadyworkgroup.</strong>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Jurusan apa saja yang dapat mendaftar ?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Hanya</strong> Mahasiswa dari Jurusan Teknik Informatika dan Sistem Informasi yang dapat bergabung.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-dark text-light p-3 text-center">
+      <p>Copyright &#169; 2021, All Right Reserved</p>
+    </section>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
